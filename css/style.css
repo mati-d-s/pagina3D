@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+h1 {
+    color: red;
+    text-align: center;
+
+}
+
+h2 {
+    color:#000;
+    text-align: center;
+
+}
+
+nav ul {
+    list-style: none;
+    background-color: black;
+    height: 10vh;
+    width: 100%;
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+    color: white;
+
+}
+
+.nombre-pagina {
+    text-align: center;
+    background-color: mediumslateblue;
+
+
+}
+
+#subtitulo-pagina {
+    font-size: large;
+
+}
+
+.contenedor {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    height: 100vh;
+
+}
+
+img {
+    width: 100%;
+
+
+}
+
+.texto-descripcion {
+    position: absolute;
+    top: 50%;
+    left: 0%;
+    font-size: 22px;
+    color: #fff;
+    background-color: #000;
+
+}
+
+#dinosaurio {
+    height: 40%;
+    width: 40%;
+    right: 100%;
+    text-align: center;
+
+}
+
+#texto-nosotros{
+    font-size: medium;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+
+}
+
+.imagen-impresora{
+    width: 50%;
+    height: 50%;
+    text-align: center;
+
+}
+
+
+#texto-impresora{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+
+.texto-boton{
+    text-align: center;
+}
+
+footer {
+
+    text-align: center;
+    background-color: #bc8183;
+    width: 100%;
+    height: 25vh;
+
+}
+
+.imagen-footer {
+    width: 50px;
+}
