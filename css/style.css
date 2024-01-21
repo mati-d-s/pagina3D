@@ -1,148 +1,223 @@
-* {
-    margin: 0;
-    padding: 0;
-    text-decoration: none;
-}
+ /* General */
 
-h1 {
-    color: mediumslateblue;
-    text-align: center;
-
-}
-
-h2 {
-    color: #000;
-    text-align: center;
-
-}
-
-nav ul {
-    list-style: none;
-    height: 3vh;
-    width: 100%;
-    text-decoration: none;
-    display: flex;
-    flex-direction: row;
-
-}
-
-#nombre-pagina {
-    text-align: center;
-    background-color: mediumslateblue;
-
-
-}
-
-#subtitulo-pagina {
-    font-size: large;
-
-}
-
-.contenedor {
-    position: relative;
-    display: inline-block;
-    width: 100%;
-
-}
-
-img {
-    width: 100%;
-
-
-}
-
-#texto-descripcion {
-    position: absolute;
-    top: 50%;
-    left: 0%;
-    font-size: 22px;
-    color: #fff;
-    background-color: #000;
-
-}
-
-#dinosaurio {
-    height: 40%;
-    width: 40%;
-    right: 100%;
-    text-align: center;
-
-}
-
-#texto-nosotros {
-    font-size: medium;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    text-align: center;
-
-}
-
-.card-impresoras{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    align-items: center;
-    object-fit: cover;
-
-}
+ * {
+     margin: 0;
+     padding: 0;
+     text-decoration: none;
+ }
 
 
 
-.texto-boton {
-    text-align: center;
-    margin: 10px;
-    padding: 10px;
-}
+ /* Header */
 
-.card-img-top{
-    object-fit: scale-down;
-    
-}
+ ul {
+     list-style: none;
+     display: flex;
+     flex-wrap: wrap;
+ }
 
-.card-body{
-    text-align: center;
-}
+ nav ul {
+     display: flex;
+     flex-direction: row;
+     flex-wrap: wrap;
+     justify-content: space-around;
 
+ }
 
+ /* Body */
 
-footer {
-
-    text-align: center;
-    background-color: #bc8183;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    height: 20vh;
-
-}
+ body {
+     position: relative;
+     padding-bottom: 8em;
+     min-height: 100vh;
+ }
 
 
 
-#logoinstagram {
-    height: 100px;
-    width: 100px;
-    display: flex;
-    flex-direction: row;
+ .roboto-regular {
+     font-family: "Roboto", sans-serif;
+     font-weight: 600;
+     font-style: normal;
+ }
 
-}
 
-#logowhatsapp {
-    height: 100px;
-    width: 100px;
-    display: flex;
-    flex-direction: row;
 
-}
+ a:hover {
+     color: white;
+     text-decoration: none;
+ }
 
-#logotelefono {
-    height: 100px;
-    width: 100px;
-    display: flex;
-    flex-direction: row;
-}
+ h1 {
+     color: mediumslateblue;
+     text-align: center;
 
-.redes-sociales{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
+ }
 
-}
+ h2 {
+     color: #000;
+     text-align: center;
+
+ }
+
+ #nombre-pagina {
+     text-align: center;
+
+
+
+ }
+
+ #subtitulo-pagina {
+     font-size: large;
+
+ }
+
+
+
+ .contenedor {
+     position: relative;
+     display: inline-block;
+     width: 100%;
+
+ }
+
+ img {
+     width: 100%;
+     height: auto;
+
+ }
+
+ .carousel-image {
+     width: 100%;
+     height: auto;
+ }
+
+
+ #texto-nosotros {
+     font-size: medium;
+     font-family: Verdana, Geneva, Tahoma, sans-serif;
+     text-align: center;
+
+ }
+
+ .card-impresoras {
+     display: flex;
+     flex-direction: row;
+     justify-content: space-evenly;
+     align-items: center;
+     object-fit: cover;
+     flex-wrap: wrap;
+ }
+
+
+
+ .texto-boton {
+     text-align: center;
+     margin: 10px;
+     padding: 10px;
+ }
+
+ .card-img-top {
+     object-fit: scale-down;
+
+ }
+
+ .card-body {
+     text-align: center;
+ }
+
+ /* Footer */
+
+ footer {
+
+     text-align: center;
+     position: absolute;
+     width: 100%;
+     display: flex;
+     flex-direction: column;
+     bottom: 0;
+     height: 8rem;
+     margin-top: auto;
+     background-color: #343a40 !important;
+
+ }
+
+
+
+ #logoinstagram {
+     height: 100px;
+     width: 100px;
+     display: flex;
+     flex-direction: row;
+
+ }
+
+ #logowhatsapp {
+     height: 100px;
+     width: 100px;
+     display: flex;
+     flex-direction: row;
+
+ }
+
+ #logotelefono {
+     height: 100px;
+     width: 100px;
+     display: flex;
+     flex-direction: row;
+ }
+
+ .redes-sociales {
+     display: flex;
+     flex-direction: row;
+     justify-content: space-evenly;
+     flex-wrap: wrap;
+
+ }
+
+ /* Desktop */
+ @media screen and (min-width: 900px) {
+     body {
+         background-color: lightgray;
+     }
+
+     h1,
+     h2 {
+         color: darkblue;
+     }
+
+     nav ul {
+         flex-direction: row;
+     }
+ }
+
+ /* Tablet */
+ @media screen and (min-width: 600px) and (max-width: 899px) {
+     body {
+         background-color: lightblue;
+     }
+
+     h1,
+     h2 {
+         color: darkgreen;
+     }
+
+     nav ul {
+         flex-direction: column;
+     }
+ }
+
+ /* Celular */
+ @media screen and (max-width: 599px) {
+     body {
+         background-color: lightpink;
+     }
+
+     h1,
+     h2 {
+         color: darkred;
+     }
+
+     nav ul {
+         flex-direction: column;
+     }
+ }

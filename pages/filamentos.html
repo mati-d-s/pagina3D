@@ -2,44 +2,77 @@
 <html lang="en">
 
 <head>
+    <!-- Meta Tags -->
+
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="../css/style.css" />
+
+    <!-- CSS -->
+
+    <link rel="stylesheet" href="https://necolas.github.io/normalize.css/">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Roboto&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/style.css" />
+
     <title>Tres De Impresiones</title>
+
 </head>
 
 <body>
+    <!-- Header -->
     <header>
-        <nav class="navbar navbar-dark bg-dark">
-            <ul>
-                <li><a href="../index.html">&nbsp&nbsp&nbspInicio</a></li>
-                <li><a href="./nosotros.html">&nbsp&nbsp&nbspNosotros</a></li>
-                <li><a href="./proyectos.html">&nbsp&nbsp&nbspProyectos</a></li>
-                <li><a href="./impresoras.html">&nbsp&nbsp&nbspImpresoras</a></li>
-                <li><a href="./filamentos.html">&nbsp&nbsp&nbspFilamentos</a></li>
-                <li><a href="./contacto.html">&nbsp&nbsp&nbspContacto</a></li>
-            </ul>
+
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link" href="../index.html">Inicio</a></li>
+                    <li class="nav-item"><a class="nav-link" href="./nosotros.html">Nosotros</a></li>
+                    <li class="nav-item"><a class="nav-link" href="./proyectos.html">Proyectos</a></li>
+                    <li class="nav-item"><a class="nav-link" href="./impresoras.html">Impresoras</a></li>
+                    <li class="nav-item"><a class="nav-link" href="./filamentos.html">Filamentos</a></li>
+                    <li class="nav-item"><a class="nav-link" href="./contacto.html">Contacto</a></li>
+                </ul>
+            </div>
         </nav>
+
     </header>
+
+    <!-- Main  -->
+
     <main>
+
         <section>
 
-            <h1>Filamentos</h1>
+            <h1 class="roboto-regular">Filamentos</h1>
 
             <div class="card mb-3">
-                <img src="../img/Filamento 3D PLA Silk (seda) 1.75mm Grilon3 1kg AZUL.jpg" class="card-img-top" alt="imagen-filamento">
+                <img src="../img/Filamento 3D PLA Silk (seda) 1.75mm Grilon3 1kg AZUL.jpg" class="card-img-top"
+                    alt="imagen-filamento">
                 <div class="card-body">
-                  <h5 class="card-title">Filamento 3D PLA Silk (seda) 1.75mm Grilon3 1kg AZUL</h5>
-                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                  <p class="card-text"><small class="text-body-secondary">Actualizado hace 3 minutos</small></p>
-                  <button type="button" class="btn btn-primary">Comprar</button>
+                    <h5 class="card-title">Filamento 3D PLA Silk (seda) 1.75mm Grilon3 1kg AZUL</h5>
+                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                        additional content. This content is a little bit longer.</p>
+                    <p class="card-text"><small class="text-body-secondary">Actualizado hace 3 minutos</small></p>
+                    <button type="button" class="btn btn-primary">Comprar</button>
                 </div>
-              </div>
+            </div>
+        
         </section>
+
     </main>
-    <footer class="navbar navbar-dark bg-dark">
+
+    <!-- Footer -->
+
+    <footer>
+
         <div class="redes-sociales">
             <a href="https://www.instagram.com/" id="logoinstagram"><img src="../img/instagram.png"
                     alt="Logo de Instagram" /></a>
@@ -48,7 +81,20 @@
             <a href="tel:+346785678769966" id="logotelefono"><img src="../img/telefono.png"
                     alt="Logo de telefono" /></a>
         </div>
+
     </footer>
+
+    <!-- JS Scripts -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+
 </body>
 
 </html>
