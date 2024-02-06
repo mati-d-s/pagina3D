@@ -1,0 +1,51 @@
+@import "../utilities/_extends.css";
+  
+  // Extender la clase en los encabezados h1 y h2
+  h1, h2 {
+    @extend %heading;
+  }
+  
+ 
+  
+  // Extender la clase en los enlaces a
+  a {
+    @extend %link;
+  }
+  
+ 
+
+  
+  // Extender la clase en las imágenes img y .carousel-image
+  img, .carousel-image {
+    @extend %image;
+  }
+  
+ 
+
+  
+ 
+ 
+  
+  // Extender la clase en los íconos #logoinstagram, #logowhatsapp y #logotelefono
+  footer #logoinstagram, footer #logowhatsapp, footer #logotelefono {
+    @extend %social-icon;
+  }
+  
+  
+  
+  
+  
+  // Clase placeholder para la parte superior de la tarjeta
+  
+  
+  // Extender la clase en .card-img-top
+
+  
+  // Clase placeholder para el cuerpo de la tarjeta
+
+  
+  // Extender la clase en .card-body
+  .card-body {
+    @extend %card-body;
+  }
+  

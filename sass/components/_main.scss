@@ -1,0 +1,80 @@
+@import "../utilities/extends.scss";
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: $ninguna;
+}
+
+body {
+    position: $relativo;
+    padding-bottom: 8em;
+    min-height: 100vh;
+}
+
+.roboto-regular {
+    font-family: $familia-roboto;
+    font-weight: $peso-600;
+    font-style: $normal;
+}
+
+a {
+    @extend %link;
+}
+
+h1, h2 {
+    color: $color-azul-medio;
+    text-align: $centro;
+}
+
+#nombre-pagina, #subtitulo-pagina {
+    text-align: $centro;
+}
+
+#subtitulo-pagina {
+    font-size: $tamano-grande;
+}
+
+.contenedor {
+    position: $relativo;
+    display: $bloque-inline;
+    width: $ancho-total;
+}
+
+img {
+    @extend %image;
+}
+
+.carousel-image {
+    width: $ancho-total;
+    height: $alto-auto;
+}
+
+#texto-nosotros {
+    font-size: $tamano-medio;
+    font-family: $familia-verdana;
+    text-align: $centro;
+}
+
+.card-impresoras {
+    @extend %card-container;
+  }
+ 
+
+// Extender la clase en .texto-boton
+
+.texto-boton {
+    @extend %button-text;
+  }
+
+// Extender en .card-img-top
+
+  .card-img-top {
+    @extend %card-top;
+  }
+
+// Extender en .card-body
+
+  .card-body {
+    @extend %card-body;
+  }

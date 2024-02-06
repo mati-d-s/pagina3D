@@ -1,0 +1,19 @@
+@import "../utilities/extends.scss";
+
+ // Extender la clase en el pie de página footer
+
+footer {
+    @extend %footer;
+
+    #logoinstagram, #logowhatsapp, #logotelefono {
+        @extend %social-icon;
+    }
+}
+
+
+.redes-sociales {
+    display: $flex;
+    flex-direction: $fila;
+    justify-content: $espacio-uniforme;
+    flex-wrap: $envolver;
+}
